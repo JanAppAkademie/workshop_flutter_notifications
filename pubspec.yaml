@@ -1,0 +1,27 @@
+name: workshop_flutter_notifications
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.2.6 <4.0.0'
+
+dependencies:
+  awesome_notifications: ^0.9.2
+  device_info_plus: ^9.1.2
+  flutter:
+    sdk: flutter
+  flutter_local_notifications: ^16.3.2
+  flutter_timezone: ^1.0.8
+  http: ^1.2.0
+  image: ^4.1.6
+  palette_generator: ^0.3.3+3
+  path_provider: ^2.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
